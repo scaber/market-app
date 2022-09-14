@@ -32,8 +32,7 @@ const styles:StylesDictionary  = {
     const [pageTotal, setPageTotal] = useState<number>(0);
   
    
-    useEffect(() => { 
-      
+    useEffect(() => {  
         agent.Products.list(filters).then(
           (res: PaginatedResult<ProductModel[]>) => {
             if(res && res.data){
