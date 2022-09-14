@@ -11,6 +11,17 @@ Features:
  
  *Api repository* : [market-app-api](https://github.com/scaber/market-app-api)
  *Api url* : [https://market-app-api.herokuapp.com/](https://market-app-api.herokuapp.com/)
+## File Structure
+
+├─── **public**<br>
+└─── **src**<br>
+├────── **app** : hooks and Redux store<br>
+├────── **assets** : images<br>
+├────── **components** : components<br>
+├────── **agent** : api services<br>
+├────── **containers** : page elements<br>
+├────── **features** : Redux action,reducer   <br>
+└────── **models** : typescript's model definitions<br>
 
 ## Available Scripts
 
