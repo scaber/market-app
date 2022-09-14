@@ -1,7 +1,6 @@
-import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { RootState, AppThunk } from '../../app/store';
-import   Products from '../../api/agent';
-
+import {   createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { RootState  } from '../../app/store';
+ 
 export interface FiltersType {
   _sort?: "added" | "price";
   _order?: "asc" | "desc";

@@ -1,5 +1,5 @@
-import { Button, Row  , Radio, Divider} from 'antd'
-import React, { useEffect, useState } from 'react'
+import { Button, Row  , Radio } from 'antd'
+import React, {  useState } from 'react'
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { StylesDictionary } from '../../components/StylesDictionary';
 import { deleteFilter, getFilters, updateFilters } from '../../features/product/FiltersSlice';

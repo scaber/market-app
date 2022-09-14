@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Layout, Image, Modal, Row } from "antd";
+import { Layout } from "antd";
 import Logo from "../../assets/img/Logo.svg";
 import BasketIcon from "../../assets/img/BasketIcon.svg";
 import { useAppSelector } from "../../app/hooks";

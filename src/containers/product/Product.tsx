@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Button, Col, Row } from "antd";
+import { Avatar,  Col, Row } from "antd";
 import { ProductModel   } from "../../models/product";
 import AddButton from "../buttonGroup/AddButton";
  import { ProductName } from "../../components/ProductName";

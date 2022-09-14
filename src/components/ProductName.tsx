@@ -20,6 +20,6 @@ interface Props  {
     }
   } ;
 export const ProductName:React.FC<Props> = ({name,noMargin}) => {  return (
-    <div style={noMargin==true?styles.productName:styles.productCardName}>{name}</div>
+    <div style={noMargin===true?styles.productName:styles.productCardName}>{name}</div>
   )
 }

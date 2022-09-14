@@ -1,6 +1,5 @@
 import { Checkbox, Row } from 'antd'
-import { count } from 'console';
-import React from 'react'
+ import React from 'react'
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
 import { StylesDictionary } from '../../../components/StylesDictionary';
 import { deleteFilter, getFilters, updateFilters } from '../../../features/product/FiltersSlice';

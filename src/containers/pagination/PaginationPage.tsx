@@ -1,5 +1,5 @@
-import { Button, Pagination, PaginationProps, Row } from 'antd'
-import React, { useState } from 'react'
+import { Button, Pagination, PaginationProps } from 'antd'
+import React from 'react'
 import { useAppDispatch } from '../../app/hooks';
 import ArrowLeft from "../../assets/img/arrow-left.svg"
 import ArrowRight from "../../assets/img/arrow-right.svg"

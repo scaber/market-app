@@ -66,7 +66,7 @@ const styles:StylesDictionary  = {
       </Row>
       <Row style={{marginTop:"32px"}}>
       {products &&
-        <PaginationPage total={pageTotal==0?1:pageTotal} />
+        <PaginationPage total={pageTotal===0?1:pageTotal} />
       }
       </Row>
     </>
