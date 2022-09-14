@@ -32,7 +32,7 @@ const Products = {
   list: (params: FiltersType) =>
     axios
       .get<PaginatedResult<ProductModel[]>>(
-        `/items?_limit=16${queryStringBuilder(params)}`
+        `/items${queryStringBuilder(params)}`
       )
       .then(responseBody),
   listBrands: () =>

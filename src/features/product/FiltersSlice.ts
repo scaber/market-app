@@ -11,7 +11,7 @@ export interface FiltersType {
   _limit?:number ; 
 }
 
-  const initialState: FiltersType = {}; 
+  const initialState: FiltersType = {_limit:16 }; 
 
 
 export const filtersSlice = createSlice({
