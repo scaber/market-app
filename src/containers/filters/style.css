@@ -1,0 +1,84 @@
+.filterContainer{
+    width: 100%;
+    padding: 0 3px;
+    max-height:175px;
+    overflow: auto;  
+}
+.filterContainer::-webkit-scrollbar {
+    width: 4px;
+}.filterContainer::-webkit-scrollbar-thumb  {
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+.filterInput{
+    margin-bottom: 17px;
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 2px;
+    color: #a8a8a8;
+    font-size: 14px; 
+}
+.filterInput::placeholder{
+    font-family: "Open Sans", sans-serif;
+    color: #a8a8a8;
+    font-size: 14px;
+}
+
+.filterInput:active :focus :focus-visible{
+    border: 2px solid #e0e0e0 !important;
+      outline: none;
+}
+.circleCheckBox{
+    border-radius: 45px;  
+}
+
+.circleCheckBox span .ant-checkbox-inner {
+    border-radius: 45px !important;
+    background-color: #ffffff;
+    border-color: #dfdee2 !important;
+    width: 22px;
+    height: 22px; 
+   
+}
+.circleCheckBox span.ant-checkbox:hover::after{
+    border-radius: 45px !important;
+    border-color: #1885a7 !important;
+}
+.circleCheckBox span.ant-checkbox-checked span.ant-checkbox-inner{
+    border-color: #1ea4ce !important;
+ 
+}
+.circleCheckBox span.ant-checkbox-inner::after{
+    border-color: #1ea4ce !important;
+    left: 6px;
+}
+.squareCheckBox{
+    border-radius: 2px;
+    border: unset !important; 
+}
+
+.squareCheckBox span .ant-checkbox-inner {
+    box-shadow: 0px 0px 4px 0px rgba(93, 62, 188, 0.45);
+    border: unset !important;
+    border-radius: 2px !important;
+    background-color: #ffffff;
+    border-color: #dfdee2 !important;
+    width: 22px;
+    height: 22px; 
+}
+.squareCheckBox .ant-checkbox-wrapper:hover 
+{
+    border-radius: 2px !important;
+    border: unset !important;
+}
+ .squareCheckBox span.ant-checkbox-checked span.ant-checkbox-inner{
+    border-color: #1ea4ce !important;
+    background-color: #1ea4ce;
+    border: unset !important; 
+}
+.squareCheckBox span.ant-checkbox-inner::after{
+    border-color: #ffffff !important;
+    background-color: #1ea4ce;
+    left: 6px;
+}

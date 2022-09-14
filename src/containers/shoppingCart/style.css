@@ -1,0 +1,13 @@
+.shopList{
+    width: 100%;
+    max-height: 360px;
+    padding-right: 16px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #1ea4ce; 
+  
+}
+.shopList:-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 4px;
+  }

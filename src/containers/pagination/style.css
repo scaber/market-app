@@ -1,0 +1,13 @@
+.ant-pagination-item-active{
+    color: #ffffff !important; 
+    background: #1ea4ce !important;
+    background-color: #1ea4ce !important;
+    border-color: #F2F0FD !important;
+}
+.ant-pagination-item-active a{
+    color: #fff !important;
+}
+.ant-pagination-item{
+    /* background-color: red !important; */
+    border-width: 0% !important;
+}
